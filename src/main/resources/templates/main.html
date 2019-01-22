@@ -18,7 +18,7 @@
 
     <p>qwe</p>
 </div>
-<div th:text="${enter}"></div>
+<div class="newClass" th:text="${enter}"></div>
 <div>Message list: </div>
 <ul th:each="message:${messages}">
 <li th:text="${message.id}+' '+ ${message.getText()}+' '+${message.getTag()}">
